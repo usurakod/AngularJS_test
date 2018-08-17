@@ -1,0 +1,3 @@
+checkFood is the function which evaluates the button.
+inside checkfood if food item is empty it will give the message as please enter data first, else depending on the number of items it will
+give the message as Enjoy or too much.

@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html ng-app="MyfirstApp">
   <head>
     <meta charset="utf-8">
-    <script src="angilar.min.js"></script>
+    <script src="angular.min.js"></script>
     <script src="app.js"></script>
     <title>My first AngularJS app</title>
   </head>
   <body>
-    <h1> Hello Coursera!I am thrilled about this course!!</h1>
+    <h1>My app yey!!</h1>
+    <div ng-controller="ItControls">
+      {{hello()}}
+      <input type="text" ng-model="name">
+      Inside is {{name}}
+    </div>
+
+    </div>
   </body>
 </html>
